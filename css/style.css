@@ -1,0 +1,178 @@
+/* Universal set up */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Bar */
+
+#navbar{
+    color: #fff;
+    background-color: #4682B4;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#navbar h2{
+    width: 5%;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 30px;
+    padding: 20px;
+    border-right: 1px solid #fff;
+}
+
+
+
+#navbar ul{
+    list-style: none;
+    width: 40%;
+    display: inline-block;
+
+}
+
+#navbar ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+#navbar ul li a:hover{
+    color: #181818;
+
+}
+
+/* Header Image */
+#bkImage{
+    text-align: center;
+    height: 900px;
+    background-image: url("../images/cover5.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+/* Header Text over the cover */
+
+#headerText{
+    text-align: center;
+    height: 400px;
+    position: absolute;
+    color: #fff;
+    width: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#headerText h2{
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#headerText p{
+    font-size: 14px;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+#headerText button{
+    font-size: 14px;
+    width: 150px;
+    padding: 20px;
+    text-transform: capitalize;
+    margin: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #4682B4;
+    cursor: pointer;
+    box-shadow: 1px 2px 10px #181818;
+}
+
+
+#headerText button:hover{
+    color: #181818;
+    border: 1px solid #181818;
+}
+
+/* second section Welcome to website */
+
+.section{
+    width: 97%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    color: #000;
+    
+}
+
+.sectionHeader{
+    font-size: 40px;
+    padding: 30px;
+}
+
+.sectionHeader span{
+    border-bottom: 5px solid #4682B4;
+    border-radius: 4px;
+}
+
+#secondSection div{
+    width:29%;
+    height: 320px;
+    padding: 10px;
+    float: left;
+    margin: 25px;
+    background-color: #F8F8FF;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+}
+
+#secondSection div img{
+    width:100px;
+    height: 100px;
+    padding: 10px;
+}
+
+#secondSection div p{
+    padding: 10px;
+}
+
+#secondSection div a{
+    color: #4682B4;
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+/* Third Section Features Work */
+
+#ThirdSection{
+    border-top: 1px solid #DCDCDC;
+}
+
+#ThirdSection img{
+    width:29%;
+    height: 320px;
+    margin: 20px;
+    background-color: #F8F8FF;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+    display: inline-block;
+}
